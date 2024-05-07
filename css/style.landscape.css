@@ -1,0 +1,193 @@
+@media only screen and (orientation: landscape) and (max-width:1281px) {
+
+    .fullscreen {
+        display: flex;
+    }
+
+    .back, .forward {
+        font-size: 1em;
+    }
+
+    header .buttons .button {
+        width: 40px !important;
+        height: 30px !important;
+        font-size: 1em;
+    }
+    header .score-box .img {
+        width: 35px !important;
+    }
+
+    .home .heading-content-container .heading-content-text .top, .home .heading-content-container .heading-content-text .bottom {
+        border: 5px solid #fff;
+    }
+
+    .home .heading-content-container .heading-content-text .bottom {
+        margin-right: 4em;
+        margin-left: auto;
+    }
+    
+    .home .heading-content-container .heading-content-text span{
+        font-size: 2em;
+    }
+
+    .home .heading-content-container .heading-content-text .bottom span:nth-child(3)::after {
+        border-top: 5px solid #fff;
+        border-left: 5px solid #fff;
+        border-right: 5px solid #fff;
+        bottom: -5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .home .heading-content-container .start-btn::after {
+        bottom: 13px;
+        right: 0px;
+        width: 18px;
+    }
+
+    .home .heading-content-container .start-btn::before {
+        top: 8px;
+        left: 4px;
+        transform: rotate(-39deg);
+    }
+
+    .home .heading-content-container .start-btn{
+        bottom: -10px;
+    }
+
+    .home .heading-content-container .start-btn i {
+        font-size: 3em;
+    }
+
+    .game.show{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .game .questions {
+        height: fit-content !important;
+    }
+
+    .game .questions .content .separate.underline {
+        padding: 5px 0.7em;
+    }
+
+    .game .answers{
+        height: 20%;
+        padding: 0;
+    }
+
+    .game .answers .answer {
+        font-size: 0.6em;
+        padding: 5px 20px;
+        margin: 5px 10px;
+    }
+
+    .game .questions .content p{
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; */
+        font-size: 16px;
+        margin-bottom: 0 !important;
+        line-height: 2;
+    }
+
+    .game .questions .content .separate {
+        padding: 5px 20px;
+    }
+
+    .success-popup .popup-box {
+        width: 235px;
+        height: unset;
+    }
+
+    .success-popup .popup-box .image {
+        margin: 0 auto;
+        width: 9em;
+    }
+
+    .success-popup .popup-box .score-result{
+        margin: 4px;
+    }
+
+    .success-popup .popup-box .score-result .text h3, .success-popup .popup-box .score-result .text p {
+        font-size: 1em;
+    }
+
+    .success-popup .popup-box .score-result .object {
+        width: 3em;
+    }
+
+    .success-popup .popup-box .buttons {
+        margin-top: 5px;
+        justify-content: space-evenly;
+    }
+
+    .success-popup .popup-box .buttons button {
+        width: 2em;
+        height: 2em;
+        font-size: 1em;
+    }
+
+    .success-popup .popup-box .close  {
+        width: 2em;
+        height: 2em;
+        font-size: 1em;
+        top: 0px;
+    }
+}
+
+.detact-landscape {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 600;
+    /* backdrop-filter: blur(2px); */
+    display: none;
+}
+.detact-landscape.show{
+    display: block;
+}
+.detact-landscape .note-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.detact-landscape .note-box h2 {
+    margin-right: 25px;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+}
+}
+.detact-landscape .note-box i {
+    font-size: 2em;
+    animation: rotate 2s ease 0s infinite forwards ;
+    -webkit-animation: rotate 2s ease 0s infinite forwards ;
+}
+/* @media screen and (orientation: portrait) {
+    body{
+        background-color: green;
+    }
+} */

@@ -1,0 +1,42 @@
+[
+    {
+        "topic_id": 1,
+        "topic_title" : "What are your plans for the weekend? fill the gaps.",
+        "topic_type" : "normal",
+        "questions": [
+            { "title": "This weekend, i'm going to @A Washington,", "answer": "......", "id": 1 },
+            { "title": "D.C. it's the capital of the @A !", "answer": "......", "id": 2 },
+            { "title": "i'm @A visit The White House, ", "answer": "......", "id": 3 },
+            { "title": "which is the @A house. ", "answer": "......", "id": 4 },
+            { "title": "There are 132 @A in it. ", "answer": "......", "id": 5 },
+            { "title": "Can you imagine? One room is the @A .", "answer": "'......", "id": 6 },
+            { "title": "The President @A there. it's going to be fun!", "answer": "......", "id": 7 }
+        ],
+        "answers" : [
+            {"title":"going to","id":1,"question_id":3},
+            {"title":"Oval Office","id":2,"question_id":6},
+            {"title":"visit","id":3,"question_id":1},
+            {"title":"United States","id":4,"question_id":2},
+            {"title":"rooms","id":5,"question_id":5},
+            {"title":"works","id":6,"question_id":7},
+            {"title":"Presidents","id":7,"question_id":4}
+        ]
+    } , 
+    {
+        "topic_id": 2,
+        "topic_title" : "Fill the gaps with  each  scientist's discoveries",
+        "topic_type" : "cards",
+        "questions": [
+            { "title": "Henry Cavendish", "id": 1 },
+            { "title": "Francis Crick", "id": 2 },
+            { "title": "Tim Berners-Lee", "id": 3 },
+            { "title": "Stephen Hawking", "id": 4 }
+        ],
+        "answers" : [
+            {"title":"quantum gravity, black holes","id":1,"question_id":3},
+            {"title":"World Wide Web","id":2,"question_id":6},
+            {"title":"the structure of the DNA","id":3,"question_id":1},
+            {"title":"hydrogen","id":4,"question_id":2}
+        ]
+    }
+]
